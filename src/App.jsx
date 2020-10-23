@@ -2,6 +2,7 @@ import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 import './App.scss';
+import MyFace from './images/myface.png';
 import ContactMe from './components/ContactMe';
 import Education from './components/Education';
 import Experience from './components/Experience';
@@ -47,6 +48,7 @@ function App() {
 
       <Route exact path='/'>
         Welcome to my extremely shitty site that's in progress!
+        <img src={MyFace} alt='Douglas Williams' className='spin' />
       </Route>
     </BrowserRouter>
   );
