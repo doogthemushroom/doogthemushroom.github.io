@@ -18,8 +18,12 @@ function Experience() {
         <h4>Cerner</h4>
         <h5>Oct. 2014 - Dec. 2019 | Senior Associate Software Engineer</h5>
         <ul>
-          <li>Maintained a number of Ruby on Rails components and services for a patient reporting mobile application</li>
-          <li>Helped on multiple transitions through visual frameworks (i.e. ruby based, react based) used in application</li>
+          <li>
+            Maintained a number of Ruby on Rails components and services for a patient reporting mobile application
+          </li>
+          <li>
+            Helped on multiple transitions through visual frameworks (i.e. ruby based, react based) used in application
+          </li>
           <li>Moved through multiple teams and organizations during employment</li>
         </ul>
       </div>

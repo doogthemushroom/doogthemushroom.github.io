@@ -2,11 +2,11 @@ import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 import './App.scss';
-import Education from './Education';
-import Experience from './Experience';
-import Skills from './Skills';
-import ContactMe from './ContactMe';
-import Miscellaneous from './Miscellaneous';
+import ContactMe from './components/ContactMe';
+import Education from './components/Education';
+import Experience from './components/Experience';
+import Miscellaneous from './components/Miscellaneous';
+import Skills from './components/Skills';
 
 function App() {
   return (
@@ -46,7 +46,7 @@ function App() {
       </Route>
 
       <Route exact path='/'>
-        Welcome!
+        Welcome to my extremely shitty site that's in progress!
       </Route>
     </BrowserRouter>
   );
