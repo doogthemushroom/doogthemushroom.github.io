@@ -13,7 +13,7 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar bg='dark' variant='dark' expand='lg'>
-        <Link className='navbar-brand' to='/'>Douglas Michael Williams</Link>
+        <Link className='navbar-brand' to='/'>Douglas M. Williams</Link>
         <Navbar.Toggle aria-controls='main-site-collapse' />
         <Navbar.Collapse id='main-site-collapse'>
           <Nav>
@@ -25,27 +25,21 @@ function App() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-
       <Route path='/experience'>
         <Experience />
       </Route>
-
       <Route path='/education'>
         <Education />
       </Route>
-
       <Route path='/skills'>
         <Skills />
       </Route>
-
       <Route path='/miscellaneous'>
         <Miscellaneous />
       </Route>
-
       <Route path='/contact'>
         <ContactMe />
       </Route>
-
       <Route exact path='/'>
         Welcome to my extremely shitty site that's in progress!
         <img src={MyFace} alt='Douglas Williams' className='spin' />
